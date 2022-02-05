@@ -8,7 +8,8 @@ public class Test {
         if (in.hasNextLine()) {
             String input = in.nextLine();
             Counter counter = new Counter(input);
-            counter.printSum();
+            counter.countSum();
+            System.out.println(counter.getSum());
         }
     }
 }
